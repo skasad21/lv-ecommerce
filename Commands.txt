@@ -1,0 +1,8 @@
+1. To create category Table
+php artisan make:migration create_categories_table
+2. To create Category Model
+php artisan make:model Category
+3. To create Category Controller which we will put inside admin folder
+php artisan make:controller Admin/CategoryController
+4. To validation we make a from request and to create it (app>http>Request)
+php artisan make:request CategoryFormRequest
