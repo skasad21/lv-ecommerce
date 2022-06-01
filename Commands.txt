@@ -1,3 +1,4 @@
+pass: admin123
 1. To create category Table
 php artisan make:migration create_categories_table
 2. To create Category Model
@@ -6,3 +7,7 @@ php artisan make:model Category
 php artisan make:controller Admin/CategoryController
 4. To validation we make a from request and to create it (app>http>Request)
 php artisan make:request CategoryFormRequest
+5. To make a livewire component
+php artisan make:livewire Admin/Category/Index
+it will create the conponent inside app > Http > Livewire > Admin > Category > Index.php
+and another file inside the resources > views > livewire > admin > category> index.blade.php
